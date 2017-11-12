@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "facing=up,powered=false":    { "model": "modding:teer_knopf" },
+        "facing=down,powered=false":  { "model": "modding:teer_knopf", "x": 180 },
+        "facing=east,powered=false":  { "model": "modding:teer_knopf", "x": 90, "y": 90 },
+        "facing=west,powered=false":  { "model": "modding:teer_knopf", "x": 90, "y": 270 },
+        "facing=south,powered=false": { "model": "modding:teer_knopf", "x": 90, "y": 180 },
+        "facing=north,powered=false": { "model": "modding:teer_knopf", "x": 90 },
+        "facing=up,powered=true":     { "model": "modding:teer_knopf_pressed" },
+        "facing=down,powered=true":   { "model": "modding:teer_knopf_pressed", "x": 180 },
+        "facing=east,powered=true":   { "model": "modding:teer_knopf_pressed", "x": 90, "y": 90 },
+        "facing=west,powered=true":   { "model": "modding:teer_knopf_pressed", "x": 90, "y": 270 },
+        "facing=south,powered=true":  { "model": "modding:teer_knopf_pressed", "x": 90, "y": 180 },
+        "facing=north,powered=true":  { "model": "modding:teer_knopf_pressed", "x": 90 }
+    }
+}

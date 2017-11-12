@@ -1,0 +1,6 @@
+{
+    "parent": "block/fluid",
+    "textures": {
+        "fluid": "modding:blocks/teer"
+    }
+}

@@ -1,4 +1,4 @@
-The current version for all mc versions, expceted 1.01.2, is 0.5. 
+The current version for all mc versions, expceted 1.10.2, is 0.5. 
 For mc 1.10.2 it is 0.5.1.
 I'm working on version 0.5.2.
 The version, which will always be updated first is 1.10.2.

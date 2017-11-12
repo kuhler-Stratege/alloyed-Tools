@@ -1,0 +1,82 @@
+text.platinBlock.text=Achtung, härter, als du denkst!
+text.platinOre.text=Dieser Block möchte dich veräppeln.
+text.UpdateChecker.text=Eine neuere Version des Mod ist verfügbar. Downloade sie hier: 
+text.teer.text=Denk daran: Teer ist verflucht!
+
+itemGroup.goldTab=Goldlegierung
+itemGroup.chromTab=Eisenlegierung
+itemGroup.teerTab=Holzlackierung
+
+item.horse_raw.name=rohes Pferdefleisch
+item.horse_cooked.name=gekochtes Pferdefleisch
+
+item.gold_dust.name=Goldstaub
+item.platin_ingot.name=Platinbarren
+item.platin_klumpen.name=Platinklumpen
+item.platin_dust.name=Platinstaub
+item.mix_ingot.name=legierter Goldbarren
+item.mix_klumpen.name=legierter Goldklumpen
+item.mix_dust.name=legierter Goldstaub
+
+item.mix_sword.name=legiertes Goldschwert
+item.mix_shovel.name=legierte Goldschaufel
+item.mix_axe.name=legierte Goldaxt
+item.mix_pickaxe.name=legierte Goldspitzhacke
+item.mix_hoe.name=legierte Goldhacke
+
+item.mix_helmet.name=legierter Goldhelm
+item.mix_chestplate.name=legierter Goldbrustpanzer
+item.mix_leggings.name=legierte Goldhose
+item.mix_boots.name=legierte Goldschuhe
+
+tile.platin_ore.name=Platinerz
+tile.platin_block.name=Platinblock
+tile.mix_block.name=legierter Goldblock
+
+item.eisen_dust.name=Eisenstaub
+item.chromit.name=Chromitbarren
+item.chrom_ingot.name=Chrombarren
+item.chrom_klumpen.name=Chromklumpen
+item.chrom_dust.name=Chromstaub
+item.sili_ingot.name=Siliciumbarren
+item.sili_klumpen.name=Siliciumklumpen
+item.sili_dust.name=Siliciumstaub
+item.ferro_ingot.name=Ferrochrombarren
+item.ferro_klumpen.name=Ferrochromklumpen
+item.ferro_dust.name=Ferrochromstaub
+
+item.ferro_pickaxe.name=Ferrochromspitzhacke
+item.ferro_shovel.name=Ferrochromschaufel
+item.ferro_sword.name=Ferrochromschwert
+item.ferro_hoe.name=Ferrochromhacke
+item.ferro_axe.name=Ferrochromaxt
+
+item.ferro_helmet.name=Ferrochromhelm
+item.ferro_chestplate.name=Ferrochrombrustpanzer
+item.ferro_leggings.name=Ferrochromhose
+item.ferro_boots.name=Ferrochromschuhe
+
+tile.chrom_ore.name=Chromiterz
+tile.chrom_block.name=Chromblock
+tile.sili_block.name=Siliciumblock
+tile.ferro_block.name=Ferrochromblock
+
+item.teer_stick.name=geteerter Stock
+item.teer_eimer.name=Teereimer
+item.kohle_eimer.name=Eimer mit Kohle
+item.sohlleder.name=Sohlleder
+
+item.teer_pickaxe.name=geteerte Holzspitzhacke
+item.teer_shovel.name=geteerte Holzschaufel
+item.teer_sword.name=geteertes Holzschwert
+item.teer_hoe.name=geteerte Holzhacke
+item.teer_axe.name=geteerte Holzaxt
+
+item.teer_helmet.name=sohllederner Helm
+item.teer_chestplate.name=sohllederner Brustpanzer
+item.teer_leggings.name=sohllederner Hose
+item.teer_boots.name=sohllederner Schuhe
+
+tile.plank_teer.name=geteerte Holzbretter
+tile.teer_knopf.name=geteerter Holzknopf
+tile.teer.name=Teer

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "FFF", 
+     "FFF", 
+     "FFF"  
+    ],
+   "key": {
+      "F": {
+      "item": "modding:ferro_ingot",
+    "data": 32767
+     }
+   },
+   "result": {
+     "item": "modding:ferro_block",
+     "count": 1,
+     "data": 0
+   }
+}

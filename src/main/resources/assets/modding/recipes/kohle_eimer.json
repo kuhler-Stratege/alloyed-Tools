@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "S", 
+     "F"
+    ],
+   "key": {
+      "F": {
+      "item": "minecraft:BUCKET",
+    "data": 32767
+     },
+      "S": {
+      "item": "minecraft:COAL",
+    "data": 32767
+     }
+   },
+   "result": {
+     "item": "modding:kohle_eimer",
+     "count": 1,
+     "data": 0
+   }
+}

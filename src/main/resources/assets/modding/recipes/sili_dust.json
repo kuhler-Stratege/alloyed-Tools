@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+   {
+    "item": "modding:sili_klumpen",
+    "data": 0
+    }
+   ],
+   "result": {
+     "item": "modding:sili_dust",
+     "count": 1
+   }
+}

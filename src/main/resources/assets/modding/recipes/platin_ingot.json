@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp", 
+    "ppp", 
+    "ppp"   
+    ],
+   "key": {
+    "p": {
+    "item": "modding:platin_klumpen"
+    }
+   },
+   "result": {
+     "item": "modding:platin_ingot",
+     "data": 0
+   }
+}

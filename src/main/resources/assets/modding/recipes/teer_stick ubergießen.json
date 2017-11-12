@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "F", 
+     "S"
+    ],
+   "key": {
+      "F": {
+      "item": "modding:teer_eimer",
+    "data": 32767
+     },
+      "S": {
+      "item": "minecraft:STICK",
+    "data": 32767
+     }
+   },
+   "result": {
+     "item": "modding:teer_stick",
+     "count": 1,
+     "data": 0
+   }
+}

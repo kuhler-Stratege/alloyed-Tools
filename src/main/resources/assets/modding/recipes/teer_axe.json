@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "FF", 
+     "FS",
+     " S"
+    ],
+   "key": {
+      "F": {
+      "item": "modding:plank_teer",
+    "data": 32767
+     },
+      "S": {
+      "item": "minecraft:STICK",
+    "data": 32767
+     }
+   },
+   "result": {
+     "item": "modding:teer_axe",
+     "count": 1,
+     "data": 0
+   }
+}

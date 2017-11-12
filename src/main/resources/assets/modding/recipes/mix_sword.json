@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "m", 
+    "m",
+    "s"  
+    ],
+   "key": {
+    "m": {
+    "item": "modding:mix_ingot"
+    },
+    "s": {
+    "item": "minecraft:STICK"
+    }
+   },
+   "result": {
+     "item": "modding:mix_sword",
+     "count": 1,
+     "data": 0
+   }
+}

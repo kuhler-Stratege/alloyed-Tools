@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "dg"  
+    ],
+   "key": {
+    "d": {
+    "item": "modding:gold_dust"
+    },
+    "g": {
+    "item": "modding:platin_dust"
+    }
+   },
+   "result": {
+     "item": "modding:mix_dust",
+     "count": 1,
+     "data": 0
+   }
+}

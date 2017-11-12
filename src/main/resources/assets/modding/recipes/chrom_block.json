@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": [
+        {
+      "item": "modding:chrom_ingot",
+      "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "modding:chrom_block",
+    "count": 1
+  }
+}

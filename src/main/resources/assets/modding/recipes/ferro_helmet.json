@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "fff", 
+     "f f"
+    ],
+   "key": {
+      "f": {
+      "item": "modding:ferro_ingot"
+     }
+   },
+   "result": {
+     "item": "modding:ferro_helmet",
+     "count": 1,
+     "data": 0
+   }
+}

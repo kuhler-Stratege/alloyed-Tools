@@ -1,0 +1,6 @@
+{
+    "parent": "block/button",
+    "textures": {
+        "texture": "modding:blocks/plank_teer"
+    }
+}

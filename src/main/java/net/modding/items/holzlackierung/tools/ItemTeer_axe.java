@@ -29,7 +29,7 @@ public class ItemTeer_axe extends BasicItemAxe{
 	
 	@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-		tooltip.add(TextFormatting.DARK_RED + I18n.translateToLocal("text.teer.text"));
+		tooltip.add(UnluckEffekte.teerText);
 	}
 	
 	@Override

@@ -28,12 +28,12 @@ import net.modding.util.UnluckEffekte;
 public class BlockTeerPlank extends BasicBlockTeer{
 	
 	public BlockTeerPlank() {
-		super("plank_teer", Material.WOOD, 1, 3.5F, SoundType.WOOD);
+		super("plank_teer", Material.WOOD, 1, 3.5F, 6F, SoundType.WOOD);
 	}
 	
 	@Override
 	public void addInformation(ItemStack stack, World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
-		tooltip.add(TextFormatting.DARK_RED + I18n.translateToLocal("text.teer.text"));
+		tooltip.add(UnluckEffekte.teerText);
 	}
 	
 	@Override

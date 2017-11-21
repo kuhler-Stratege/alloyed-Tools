@@ -1,10 +1,15 @@
 package net.modding.blocks.holzlackierung;
 
+import java.util.List;
+
 import net.minecraft.block.BlockButtonWood;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.math.BlockPos;
@@ -21,6 +26,10 @@ public class BlockTeerKnopf extends BlockButtonWood{
 		setUnlocalizedName("teer_knopf");
 		setRegistryName("teer_knopf");
 		setCreativeTab(registry.teerTab);
+		setResistance(0.2F);
+		setHardness(0.8F);
+		setSoundType(SoundType.WOOD);
+		setHarvestLevel("axe", 1);
 	}
 	
 	@Override
@@ -34,4 +43,10 @@ public class BlockTeerKnopf extends BlockButtonWood{
 		super.onEntityCollidedWithBlock(worldIn, pos, state, entityIn);
 		UnluckEffekte.unluckBlock(this, worldIn, entityIn, pos);
 	}
+	
+	@Override
+	public void addInformation(ItemStack stack, World player, List<String> tooltip, ITooltipFlag advanced) {
+		tooltip.add(UnluckEffekte.teerText);
+	}
+	
 }

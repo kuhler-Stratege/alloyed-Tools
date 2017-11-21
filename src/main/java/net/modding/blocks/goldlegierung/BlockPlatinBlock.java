@@ -6,20 +6,23 @@ import java.util.Random;
 import javax.annotation.Nullable;
 
 import net.modding.main.modding;
+import net.modding.util.UnluckEffekte;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.text.TextFormatting;
+import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
 
 public class BlockPlatinBlock extends BasicBlockGold {
 	
 	public BlockPlatinBlock() {
-		super("platin_block", Material.IRON, 2, 5.5F, SoundType.METAL);
+		super("platin_block", Material.IRON, 2, 5.5F, SoundType.METAL, 10F);
 	}
 
 	@Override
@@ -34,6 +37,6 @@ public class BlockPlatinBlock extends BasicBlockGold {
 	
 	@Override
 	public void addInformation(ItemStack stack, World player, List<String> tooltip, ITooltipFlag advanced) {
-		tooltip.add(TextFormatting.RED + "Achtung: härter, als du denkst.");
+		tooltip.add(TextFormatting.RED + I18n.translateToLocal("text.platinBlock.text"));
 	}
 }

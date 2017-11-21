@@ -14,12 +14,25 @@ import net.minecraft.world.World;
 import net.modding.fludis.holzlackierung.Teer;
 import net.modding.main.Benennung_Registry;
 import net.modding.main.modding;
+import scala.collection.convert.Wrappers.SetWrapper;
 
 public class BasicBlockTeer extends Block{
 
 	public static Benennung_Registry registry = modding.registry;
 	
-	public BasicBlockTeer(String name, Material material, int level, float harte, SoundType sound) {
+	public BasicBlockTeer(String unlocname, String regname, Material material, int level, float harte, float resistenz, SoundType sound) {
+		super(material);
+		setUnlocalizedName(unlocname);
+		setRegistryName(regname);
+		setCreativeTab(registry.teerTab);
+		setHarvestLevel("axe", level);
+		setHardness(harte);
+		setSoundType(sound);
+		setResistance(resistenz);
+		//Holz, Gold: 0, Stein: 1, Eisen: 2, Diamant: 3
+	}
+	
+	public BasicBlockTeer(String name, Material material, int level, float harte, float resistenz, SoundType sound) {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
@@ -27,6 +40,6 @@ public class BasicBlockTeer extends Block{
 		setHarvestLevel("axe", level);
 		setHardness(harte);
 		setSoundType(sound);
-		//Holz, Gold: 0, Stein: 1, Eisen: 2, Diamant: 3
+		setResistance(resistenz);
 	}
 }

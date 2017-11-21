@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+   {
+    "item": "modding:ferro_ingot",
+    "data": 32767
+    }
+   ],
+   "result": {
+     "item": "modding:ferro_klumpen",
+     "count": 9
+   }
+}

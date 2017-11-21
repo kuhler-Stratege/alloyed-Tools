@@ -51,30 +51,12 @@ import net.modding.fludis.holzlackierung.Teer.BlockTeer;
 import net.modding.items.ItemHorse_cooked;
 import net.modding.items.ItemHorse_raw;
 import net.modding.items.eisenlegierung.BasicItemEisen;
-import net.modding.items.eisenlegierung.ItemChrom_Ingot;
-import net.modding.items.eisenlegierung.ItemChrom_Klumpen;
-import net.modding.items.eisenlegierung.ItemChrom_dust;
-import net.modding.items.eisenlegierung.ItemChromit;
-import net.modding.items.eisenlegierung.ItemEisen_dust;
-import net.modding.items.eisenlegierung.ItemFerro_Klumpen;
-import net.modding.items.eisenlegierung.ItemFerro_dust;
-import net.modding.items.eisenlegierung.ItemFerro_ingot;
-import net.modding.items.eisenlegierung.ItemSilicium_Klumpen;
-import net.modding.items.eisenlegierung.ItemSilicium_dust;
-import net.modding.items.eisenlegierung.ItemSilicium_ingot;
 import net.modding.items.eisenlegierung.tools.ItemFerro_axe;
 import net.modding.items.eisenlegierung.tools.ItemFerro_hoe;
 import net.modding.items.eisenlegierung.tools.ItemFerro_pickaxe;
 import net.modding.items.eisenlegierung.tools.ItemFerro_shovel;
 import net.modding.items.eisenlegierung.tools.ItemFerro_sword;
 import net.modding.items.goldlegierung.BasicItemGold;
-import net.modding.items.goldlegierung.ItemGold_dust;
-import net.modding.items.goldlegierung.ItemMix_Klumpen;
-import net.modding.items.goldlegierung.ItemMix_dust;
-import net.modding.items.goldlegierung.ItemMix_ingot;
-import net.modding.items.goldlegierung.ItemPlatin_Klumpen;
-import net.modding.items.goldlegierung.ItemPlatin_dust;
-import net.modding.items.goldlegierung.ItemPlatin_ingot;
 import net.modding.items.goldlegierung.tools.ItemMix_axe;
 import net.modding.items.goldlegierung.tools.ItemMix_hoe;
 import net.modding.items.goldlegierung.tools.ItemMix_pickaxe;
@@ -82,7 +64,6 @@ import net.modding.items.goldlegierung.tools.ItemMix_shovel;
 import net.modding.items.goldlegierung.tools.ItemMix_sword;
 import net.modding.items.holzlackierung.BasicItemTeer;
 import net.modding.items.holzlackierung.ItemBlockTeer;
-import net.modding.items.holzlackierung.ItemBlockTeer2;
 import net.modding.items.holzlackierung.ItemKohle_eimer;
 import net.modding.items.holzlackierung.ItemTeer_eimer;
 import net.modding.items.holzlackierung.ItemTeer_stick;
@@ -168,8 +149,8 @@ public class Benennung_Registry extends modding {
 			public static ItemTeer_eimer teer_eimer;
 			public static ItemKohle_eimer kohle_eimer;
 			public static BasicItemTeer sohlleder;
-			public static ItemBlockTeer itemblockTeer;
-			public static ItemBlockTeer2 itemblockTeer2;
+			public static ItemBlockTeer itemblockPlankTeer;
+			public static ItemBlockTeer itemblockTeerKnopf;
 			public static ItemTeer_stick teer_stick;
 			
 				//Tools
@@ -298,9 +279,9 @@ public class Benennung_Registry extends modding {
 				
 				//Holzlackierung
 				plank_teer = new BlockTeerPlank();
-				itemblockTeer = new ItemBlockTeer(plank_teer);
+				itemblockPlankTeer = new ItemBlockTeer(plank_teer);
 				teer_knopf = new BlockTeerKnopf();
-				itemblockTeer2 = new ItemBlockTeer2(teer_knopf);
+				itemblockTeerKnopf = new ItemBlockTeer(teer_knopf);
 		}
 		
 	public void ClientOnly(FMLPreInitializationEvent preInit) {
@@ -398,8 +379,8 @@ public class Benennung_Registry extends modding {
 			registerEisenBlock(ferro_block);
 			
 			//Holzlackierung
-			registerTeerBlock(plank_teer, itemblockTeer);
-			registerTeerBlock(teer_knopf, itemblockTeer2);
+			registerItemMitBlock(plank_teer, itemblockPlankTeer);
+			registerItemMitBlock(teer_knopf, itemblockTeerKnopf);
 			
 		}
 	
@@ -417,7 +398,7 @@ public class Benennung_Registry extends modding {
 			ForgeRegistries.ITEMS.register(new ItemBlock(block).setRegistryName(block.getRegistryName()));
 		}
 	
-	public static void registerTeerBlock (Block block, ItemBlock itemBlock) {
+	public static void registerItemMitBlock (Block block, ItemBlock itemBlock) {
 		ForgeRegistries.BLOCKS.register(block);
 		ForgeRegistries.ITEMS.register(itemBlock);
 	}

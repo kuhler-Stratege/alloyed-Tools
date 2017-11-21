@@ -23,18 +23,17 @@ public class Crafting_Smelting extends Benennung_Registry{
 		
 	public void RegisterCrafting() {
 		
-	  //Crafing Rezepte
-		//Goldlegierung
-			addRecipe(mix_block);
-			addRecipe(platin_block);
-			addRecipe(mix_ingot);
-			addRecipe(platin_ingot);
-			addRecipe(mix_dust);
-			addRecipe(mix_dust);
-			addRecipe(platin_dust);
+		//Crafing Rezepte
+			//Goldlegierung
 			addRecipe(gold_dust);
+			addRecipe(mix_block);
+			addRecipe(mix_ingot);
 			addRecipe(mix_klumpen);
+			addRecipe(mix_dust);
+			addRecipe(platin_block);
+			addRecipe(platin_ingot);
 			addRecipe(platin_klumpen);
+			addRecipe(platin_dust);
 			
 				//Tools
 				addRecipe(mix_pickaxe);
@@ -50,20 +49,21 @@ public class Crafting_Smelting extends Benennung_Registry{
 				addRecipe(mix_boots);
 			
 			//Eisenlegierung
-			addRecipe(ferro_ingot);
-			addRecipe(sili_ingot);
-			addRecipe(chrom_ingot);
-			addRecipe(sili_block);
-			addRecipe(ferro_block);
-			addRecipe(chrom_block);
-			addRecipe(ferro_dust);
-			addRecipe(ferro_dust);
-			addRecipe(chrom_ingot);
-			addRecipe(sili_dust);
 			addRecipe(eisen_dust);
-			addRecipe(chrom_dust);
+			addRecipe(ferro_block);
+			addRecipe(ferro_ingot);
+			addRecipe("ferro_klumpen ingot");
+			addRecipe(ferro_dust);
+			addRecipe(ferro_dust);
+			addRecipe("ferro_dust klumpen");
+			addRecipe(sili_block);
+			addRecipe(sili_ingot);
 			addRecipe(sili_klumpen);
+			addRecipe(sili_dust);
+			addRecipe(chrom_block);
+			addRecipe(chrom_ingot);
 			addRecipe(chrom_klumpen);
+			addRecipe(chrom_dust);
 			
 				//Tools
 				addRecipe(ferro_sword);
@@ -79,17 +79,16 @@ public class Crafting_Smelting extends Benennung_Registry{
 				addRecipe(ferro_boots);
 				
 			//Holzlackierung
-				addRecipe(kohle_eimer);
-				addRecipe(plank_teer); 
-				//Metadaten des Stacks von Planks speichern uber NBTTagInt.
-				addRecipe("plank_teer ruck");
-				addRecipe("teer_stick ruck");
-				addRecipe(teer_stick);
-				addRecipe("teer_stick ubergieﬂen");
-				addRecipe(teer_knopf);
-				addRecipe("teer_knopf ubergieﬂen");
-				addRecipe("teer_knopf ruck");
-				
+			addRecipe(kohle_eimer);
+			addRecipe(plank_teer); 
+			addRecipe("plank_teer ruck");
+			addRecipe("teer_stick ruck");
+			addRecipe(teer_stick);
+			addRecipe("teer_stick ubergieﬂen");
+			addRecipe(teer_knopf);
+			addRecipe("teer_knopf ubergieﬂen");
+			addRecipe("teer_knopf ruck");
+			
 				//Tools normal
 				addRecipe("teer_shovel");
 				addRecipe("teer_sword");

@@ -27,7 +27,7 @@ import net.modding.items.LootTables;
 public class modding{
 
 	public static final String MODID = "modding";
-	public static final String VERSION = "0.5";
+	public static final String VERSION = "0.5.1";
 	public static final String NAME = "alloyed tools";
 	
 	

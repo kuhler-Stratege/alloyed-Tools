@@ -69,7 +69,7 @@ public class ClientProxy extends ServerProxy {
 				
 			//Holzlackierung
 			ItemModel(reg.kohle_eimer);
-			ItemModel(reg.itemblockTeer);
+			ItemModel(reg.itemblockPlankTeer);
 			ItemModel(reg.sohlleder);
 			ItemModel(reg.teer_stick);
 				

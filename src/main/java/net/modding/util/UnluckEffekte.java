@@ -7,10 +7,15 @@ import net.minecraft.item.Item;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
 import net.modding.fludis.holzlackierung.Teer;
 
 public class UnluckEffekte {
+	
+	public static String teerText = TextFormatting.DARK_RED + I18n.translateToLocal("text.teer.text");
+	
 	public static void unluckItem (Item unluckItem, Entity entityIn) {
 		if (entityIn instanceof EntityLivingBase) {
 			boolean gegeben = false;

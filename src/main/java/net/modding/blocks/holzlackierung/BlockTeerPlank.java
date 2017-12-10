@@ -16,7 +16,7 @@ import net.minecraft.world.World;
 public class BlockTeerPlank extends BasicBlockTeer{
 	
 	public BlockTeerPlank() {
-		super("plank_teer", Material.wood, 1, 3.5F, soundTypeWood);
+		super("plank_teer", Material.wood, 1, 3.5F, soundTypeWood, 6F);
 	}
 	
 	/* Hier soll dieser Block zu Brettern ersetzt werden, wenn daneben Wasser ist.

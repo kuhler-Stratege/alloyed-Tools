@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 public class BlockSilicium_Block extends BasicBlockEisen{
 	
 	public BlockSilicium_Block() {
-		super("sili_block", Material.iron, 2, 6.5F, soundTypeMetal);
+		super("sili_block", Material.iron, 2, 6.5F, soundTypeMetal, 7.5F);
 	}
 
 	@Override

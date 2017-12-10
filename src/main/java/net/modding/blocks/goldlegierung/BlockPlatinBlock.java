@@ -16,7 +16,7 @@ import net.minecraft.util.EnumChatFormatting;
 public class BlockPlatinBlock extends BasicBlockGold {
 	
 	public BlockPlatinBlock() {
-		super("platin_block", Material.iron, 2, 5.5F, soundTypeMetal);
+		super("platin_block", Material.iron, 2, 5.5F, soundTypeMetal, 10F);
 	}
 
 	@Override

@@ -11,7 +11,7 @@ public class BasicBlockGold extends Block{
 
 	public static Benennung_Registry registry = new Benennung_Registry();
 	
-	public BasicBlockGold(String name, Material material, int level, float harte, SoundType sound) {
+	public BasicBlockGold(String name, Material material, int level, float harte, SoundType sound, float resistenz) {
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
@@ -19,6 +19,7 @@ public class BasicBlockGold extends Block{
 		setHarvestLevel("pickaxe", level);
 		setHardness(harte);
 		setStepSound(sound);
+		setResistance(resistenz);
 		//Holz, Gold: 0, Stein: 1, Eisen: 2, Diamant: 3
 	}
 }

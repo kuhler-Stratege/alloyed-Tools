@@ -14,7 +14,7 @@ import net.minecraft.item.Item;
 public class BlockPlatinOre extends BasicBlockGold {
 
 	public BlockPlatinOre() {
-		super("platin_ore", Material.rock, 1, 4.5F, soundTypeStone);
+		super("platin_ore", Material.rock, 1, 4.5F, soundTypeStone, 4F);
 	}
 	
 	@Override

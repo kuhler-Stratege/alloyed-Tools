@@ -21,7 +21,6 @@ import net.modding.main.modding;
 public class Events {
 
 	private boolean hasShownUp = false;
-	public static String DownloadURL = "https://goo.gl/YPKlEl";
 	public static Minecraft getter = Minecraft.getMinecraft();
 	public static Benennung_Registry registry = modding.registry;
 	
@@ -29,7 +28,7 @@ public class Events {
 	public void onClientTick(ClientTickEvent event) {
 		if (getter.currentScreen == null) {
 		if (UpdateChecker.isNewVersionAvailable() && !hasShownUp) {
-			getter.thePlayer.addChatMessage(new ChatComponentText(EnumChatFormatting.GOLD + "" + EnumChatFormatting.BOLD + StatCollector.translateToLocal("text.UpdateChecker.text") + DownloadURL + "."));
+			getter.thePlayer.addChatMessage(new ChatComponentText(EnumChatFormatting.GOLD + "" + EnumChatFormatting.BOLD + StatCollector.translateToLocal("text.UpdateChecker.text") + modding.modInfo.UPDATE_URL + "."));
 			hasShownUp = true;
 			}
 		}

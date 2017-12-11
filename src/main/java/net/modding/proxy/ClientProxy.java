@@ -39,7 +39,7 @@ public class ClientProxy extends ServerProxy {
 				//Armor
 				ItemModel(reg.mix_helmet, "mix_helmet");
 				ItemModel(reg.mix_chestplate, "mix_chestplate");
-				ItemModel(reg.mix_leggings, "mix_leggins");
+				ItemModel(reg.mix_leggings, "mix_leggings");
 				ItemModel(reg.mix_boots, "mix_boots");
 			
 			//Eisenlegierung
@@ -66,7 +66,7 @@ public class ClientProxy extends ServerProxy {
 				//Armor
 				ItemModel(reg.ferro_helmet, "ferro_helmet");
 				ItemModel(reg.ferro_chestplate, "ferro_chestplate");
-				ItemModel(reg.ferro_leggings, "ferro_leggins");
+				ItemModel(reg.ferro_leggings, "ferro_leggings");
 				ItemModel(reg.ferro_boots, "ferro_boots");
 				
 			//Holzlackierung

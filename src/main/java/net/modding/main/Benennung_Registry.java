@@ -403,8 +403,10 @@ public class Benennung_Registry extends modding {
 			registerEisenBlock(ferro_block, "ferro_block");
 			
 			//Holzlackierung
-			registerTeerBlock(plank_teer, itemblockPlankTeer.getClass());
-			registerTeerBlock(teer_knopf, itemblockTeerKnopf.getClass());
+			registerBlockMitItem(plank_teer, itemblockPlankTeer.getClass());
+			registerBlockMitItem(teer_knopf, itemblockTeerKnopf.getClass());
+			registerBlockMitItem(platin_ore, itemblockPlatinOre.getClass());
+			registerBlockMitItem(platin_block, itemblockPlatinBlock.getClass());
 		}
 	
 	public static void registerGoldBlock(BasicBlockGold block, String name) {
@@ -423,7 +425,7 @@ public class Benennung_Registry extends modding {
 		GameRegistry.registerItem(item, item.getUnlocalizedName().substring(5), modding.MODID);
 		}
 	
-	public static void registerTeerBlock(Block block, Class<? extends ItemBlock> itemBlock) {
+	public static void registerBlockMitItem(Block block, Class<? extends ItemBlock> itemBlock) {
 		GameRegistry.registerBlock(block, itemBlock, block.getUnlocalizedName().substring(5));
 	}
 	

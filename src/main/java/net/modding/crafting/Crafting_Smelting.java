@@ -43,6 +43,7 @@ public class Crafting_Smelting extends Benennung_Registry{
 				ShapedRecipe(mix_boots, "m m", "m m", 'm', mix_ingot);
 			
 			//Eisenlegierung
+			ItemRecipe(Items.iron_ingot, "kkk", "kkk", "kkk", 'k', eisen_klumpen);
 			ItemRecipe(ferro_ingot, "fff","fff","fff", 'f', ferro_klumpen);
 			ItemRecipe(sili_ingot, "sss", "sss", "sss", 's', sili_klumpen);
 			ItemRecipe(chrom_ingot, "ccc", "ccc", "ccc", 'c', chrom_klumpen);
@@ -55,9 +56,11 @@ public class Crafting_Smelting extends Benennung_Registry{
 			ShapelessRecipe(sili_dust, sili_klumpen);
 			ShapelessRecipe(eisen_dust, eisen_klumpen);
 			ShapelessRecipe(chrom_dust, chrom_klumpen);
+			ShapelessRecipe(ferro_dust, ferro_klumpen);
 			ShapelessIntRecipe(sili_klumpen, 9, sili_ingot);
 			ShapelessIntRecipe(chrom_klumpen, 9, chrom_ingot);
 			ShapelessIntRecipe(eisen_klumpen, 9, Items.iron_ingot);
+			ShapelessIntRecipe(ferro_klumpen, 9, ferro_ingot);
 			
 				//Tools
 				MultipleShapedRecipe(ferro_sword, "m", "m", "s", 'm', ferro_ingot, 's', Items.stick);
@@ -73,17 +76,13 @@ public class Crafting_Smelting extends Benennung_Registry{
 				ShapedRecipe(ferro_boots, "m m", "m m", 'm', ferro_ingot);
 				
 			//Holzlackierung
+				HinUndRuck(teer_stick, Items.stick);
+				BlockHinUndRuck(teer_knopf, Blocks.wooden_button);
+				ShapedIntRecipe(teer_stick, 4, "p", "p", 'p', plank_teer);
 				MultipleShapedRecipe(kohle_eimer, "k", "e", 'k', new ItemStack(Items.coal, 1, 0), 'e', Items.bucket);
 				MultipleShapedRecipe(kohle_eimer, "k", "e", 'k', new ItemStack(Items.coal, 1, 1), 'e', Items.bucket);
-				ShapedBlockRecipe(plank_teer, "t", "p", 'p', Blocks.planks, 't', teer_eimer); 
-				//Metadaten des Stacks von Planks speichern uber NBTTagInt.
-				ShapedBlockRecipe(Blocks.planks, "w", "p", 'p', plank_teer, 'w', Items.water_bucket);
-				MultipleShapedRecipe(Items.stick, "w", "p", 'p', teer_stick, 'w', Items.water_bucket);
-				ShapedIntRecipe(teer_stick, 4, "p", "p", 'p', plank_teer);
-				ShapedRecipe(teer_stick, "t", "s", 't', teer_eimer, 's', Items.stick);
-				ShapedBlockRecipe(teer_knopf, "t", "k", 't', teer_eimer, 'k', Blocks.wooden_button);
 				ShapelessBlockRecipe(teer_knopf, plank_teer);
-				ShapedBlockRecipe(Blocks.wooden_button, "w", "k", 'w', Items.water_bucket, 'k', teer_knopf);
+				BlockHinUndRuck(plank_teer, Blocks.planks);
 				
 				//Tools normal
 				MultipleShapedRecipe(teer_shovel, "t", "h", "h", 't', plank_teer, 'h', Items.stick);
@@ -181,6 +180,16 @@ public class Crafting_Smelting extends Benennung_Registry{
 		GameRegistry.addShapelessRecipe(new ItemStack(out, menge), in);
 	}
 	
+	public static void HinUndRuck (Item geteert, Item nichtGeteert) {
+		ShapedRecipe(geteert, "w", "g", 'w', teer_eimer, 'g', nichtGeteert);
+		ShapedRecipe(nichtGeteert, "w", "g", 'w', Items.water_bucket, 'g', geteert);
+	}
+	
+	public static void BlockHinUndRuck (Block geteert, Block nichtGeteert) {
+		ShapedBlockRecipe(geteert, "w", "g", 'w', teer_eimer, 'g', nichtGeteert);
+		ShapedBlockRecipe(nichtGeteert, "w", "g", 'w', Items.water_bucket, 'g', geteert);
+	}
+	
 	public static void BlockSmelting(Block in, Item out, float xp) {
 		GameRegistry.addSmelting(in, new ItemStack(out), xp);
 	}
@@ -192,6 +201,4 @@ public class Crafting_Smelting extends Benennung_Registry{
 	public static void ItemSmelting(Item in, Item out, float xp) {
 		GameRegistry.addSmelting(in, new ItemStack(out), xp);
 	}
-	
-	
 }

@@ -16,7 +16,7 @@ import net.minecraft.util.EnumChatFormatting;
 public class BlockPlatinBlock extends BasicBlockGold {
 	
 	public BlockPlatinBlock() {
-		super("platin_block", Material.iron, 2, 5.5F, soundTypeMetal);
+		super("platin_block", Material.iron, 2, 5.5F, soundTypeMetal, 10F);
 	}
 
 	@Override
@@ -28,10 +28,4 @@ public class BlockPlatinBlock extends BasicBlockGold {
 	public int quantityDropped(IBlockState state, int fortune, Random random) {
 		return 9;
 	}
-	/*
-	@Override
-	public void addInformation(ItemStack itemStack, EntityPlayer entityPlayer, List list, boolean flag) {
-		list.add(EnumChatFormatting.RED + "Achtung: härter, als du denkst.");
-	}*/
-	
 }

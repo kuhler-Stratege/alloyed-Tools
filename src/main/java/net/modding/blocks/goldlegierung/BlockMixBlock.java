@@ -13,7 +13,7 @@ public class BlockMixBlock extends BasicBlockGold {
 
 		
 		public BlockMixBlock() {
-		super("mix_block", Material.iron, 2, 6F, soundTypeMetal);
+		super("mix_block", Material.iron, 2, 6F, soundTypeMetal, 12F);
 	}
 
 		@Override

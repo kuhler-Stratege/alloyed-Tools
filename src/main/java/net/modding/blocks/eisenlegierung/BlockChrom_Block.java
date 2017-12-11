@@ -9,7 +9,7 @@ import net.minecraft.item.Item;
 public class BlockChrom_Block extends BasicBlockEisen{
 
 	public BlockChrom_Block() {
-		super("chrom_block", Material.iron, 2, 8.5F, soundTypeMetal);
+		super("chrom_block", Material.iron, 2, 8.5F, soundTypeMetal, 8F);
 		
 	}
 

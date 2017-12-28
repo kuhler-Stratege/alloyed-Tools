@@ -21,7 +21,6 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 import net.modding.proxy.ServerProxy;
 import net.modding.util.Events;
 import net.modding.util.McMod_info;
-import net.modding.util.UpdateChecker;
 import net.modding.crafting.Crafting_Smelting;
 import net.modding.fludis.BucketHandler;
 import net.modding.generations.BlockGenerator;
@@ -33,7 +32,7 @@ import net.modding.items.LootTables;
 public class modding{
 
 	public static final String MODID = "modding";
-	public static final String VERSION = "0.5";
+	public static final String VERSION = "0.5.1";
 	public static final String NAME = "alloyed tools";
 	
 	
@@ -49,7 +48,6 @@ public class modding{
 			
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		UpdateChecker.checkForUpdates();
 
 		registry = new Benennung_Registry();
 		registry.Benennung();
@@ -67,9 +65,9 @@ public class modding{
 		GameRegistry.registerWorldGenerator(new BlockGenerator(registry.platin_ore.getDefaultState(), 7, 14), 5);
 		GameRegistry.registerWorldGenerator(new BlockGenerator_2(registry.chrom_ore.getDefaultState(), 11, 6), 3);
 		
-		MinecraftForge.EVENT_BUS.register(new LootTables());	
 		MinecraftForge.EVENT_BUS.register(new Events());
 		MinecraftForge.EVENT_BUS.register(BucketHandler.INSTANCE);
+		MinecraftForge.EVENT_BUS.register(new LootTables());	
 		proxy.RegisterClientStuff();
 		proxy.RegisterEimer();
 	}

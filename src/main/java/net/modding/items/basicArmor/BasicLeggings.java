@@ -5,8 +5,8 @@ import net.minecraft.item.ItemArmor;
 
 public class BasicLeggings extends ItemArmor{
 
-	public BasicLeggings(ArmorMaterial material, String MaterialName, int MaterialInt, int armor, CreativeTabs tab) {
-		super(material, MaterialInt, 2);
+	public BasicLeggings(ArmorMaterial material, String MaterialName, CreativeTabs tab) {
+		super(material, 0, 2);
 		setUnlocalizedName(MaterialName + "_leggings");
 		setCreativeTab(tab);
 	}

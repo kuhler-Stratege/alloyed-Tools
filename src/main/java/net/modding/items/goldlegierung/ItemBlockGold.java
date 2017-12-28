@@ -23,11 +23,11 @@ public class ItemBlockGold extends ItemBlock{
 	@Override
 	public void addInformation(ItemStack stack, EntityPlayer playerIn, List tooltip, boolean advanced) {
 		if (this.getUnlocalizedName().substring(5).contains(registry.platin_block.getUnlocalizedName().substring(5))) {
-		tooltip.add(EnumChatFormatting.RED + StatCollector.translateToLocal("text.platinBlock.text"));
-		}
-		else if (this.getUnlocalizedName().substring(5).contains(registry.platin_ore.getUnlocalizedName().substring(5))) {
-			tooltip.add(EnumChatFormatting.RED + StatCollector.translateToLocal("text.platinOre.text"));
-		}
+			tooltip.add(EnumChatFormatting.RED + StatCollector.translateToLocal("text.platinBlock.text"));
+			}
+			else if (this.getUnlocalizedName().substring(5).contains(registry.platin_ore.getUnlocalizedName().substring(5))) {
+				tooltip.add(EnumChatFormatting.RED + StatCollector.translateToLocal("text.platinOre.text"));
+			}
 	}
 	
 }

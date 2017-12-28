@@ -14,7 +14,7 @@ import net.modding.main.modding;
 public class BlockFerro_Block extends BasicBlockEisen{
 	
 	public BlockFerro_Block() {
-		super("ferro_block", Material.iron, 2, 3.5F, soundTypeMetal);
+		super("ferro_block", Material.iron, 2, 3.5F, soundTypeMetal, 13F);
 	}
 
 	@Override

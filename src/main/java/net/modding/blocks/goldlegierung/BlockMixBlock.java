@@ -16,9 +16,9 @@ public class BlockMixBlock extends BasicBlockGold {
 
 		
 		public BlockMixBlock() {
-		super("mix_block", Material.iron, 2, 6F, soundTypeMetal);
+		super("mix_block", Material.iron, 2, 6F, soundTypeMetal, 12F);
 	}
-
+		
 		@Override
 		public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_) {
 			return registry.mix_ingot;

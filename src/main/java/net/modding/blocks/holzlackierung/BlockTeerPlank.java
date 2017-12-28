@@ -5,7 +5,6 @@ import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
@@ -20,7 +19,7 @@ public class BlockTeerPlank extends BasicBlockTeer{
 	}
 	
 	@Override
-	public void onEntityCollidedWithBlock(World worldIn, int x, int y, int z, Entity entityIn) {
+	public void onEntityCollidedWithBlock(World worldIn, int x, int y, int z,	Entity entityIn) {
 		UnluckEffekte.unluckBlock(this, worldIn, entityIn, x, y, z);
 	}
 	

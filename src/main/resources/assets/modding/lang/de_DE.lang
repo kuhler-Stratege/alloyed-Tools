@@ -26,7 +26,7 @@ item.mix_hoe.name=legierte Goldhacke
 
 item.mix_helmet.name=legierter Goldhelm
 item.mix_chestplate.name=legierter Goldbrustpanzer
-item.mix_leggings.name=legierte Goldhose
+item.mix_leggins.name=legierte Goldhose
 item.mix_boots.name=legierte Goldschuhe
 
 tile.platin_ore.name=Platinerz
@@ -54,7 +54,7 @@ item.ferro_axe.name=Ferrochromaxt
 
 item.ferro_helmet.name=Ferrochromhelm
 item.ferro_chestplate.name=Ferrochrombrustpanzer
-item.ferro_leggings.name=Ferrochromhose
+item.ferro_leggins.name=Ferrochromhose
 item.ferro_boots.name=Ferrochromschuhe
 
 tile.chrom_ore.name=Chromiterz

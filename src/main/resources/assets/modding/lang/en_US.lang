@@ -13,8 +13,8 @@ item.horse_cooked.name=Cooked Horsemeat
 
 item.gold_dust.name=Gold Dust
 item.platin_ingot.name=Platinic Ingot
-item.platin_klumpen.name=Platinic Nugget
-item.platin_dust.name=Platinic Dust
+item.platin_klumpen.name=Platin Nugget
+item.platin_dust.name=Platin Dust
 item.mix_ingot.name=Alloyed Goldingot
 item.mix_klumpen.name=Alloyed Goldnugget
 item.mix_dust.name=Alloyed Golddust
@@ -55,7 +55,7 @@ item.ferro_axe.name=Ferrochrome Axe
 
 item.ferro_helmet.name=Ferrochrome Helmet
 item.ferro_chestplate.name=Ferrochrome Chestplate
-item.ferro_leggings.name=Ferrochrome Leggings
+item.ferro_leggins.name=Ferrochrome Leggings
 item.ferro_boots.name=Ferrochrome Boots
 
 tile.chrom_ore.name=Chromite Ore
@@ -79,6 +79,6 @@ item.teer_chestplate.name=Sole leather Chestplate
 item.teer_leggings.name=Sole leather Leggings
 item.teer_boots.name=Sole leather Boots
 
-tile.plank_teer.name=Tared Wood Planks
-tile.teer_knopf.name=Tared Wooden Button
+tile.plank_teer.name=Tared Woodplank
+tile.teer_knopf.name=Tared wooden Button
 tile.teer.name=Tar

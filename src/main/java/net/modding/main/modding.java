@@ -5,20 +5,14 @@ import java.util.List;
 
 import com.google.common.collect.Lists;
 
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.Mod.EventHandler;
-import cpw.mods.fml.common.Mod.Instance;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.*;
+import cpw.mods.fml.common.Mod.*;
+import cpw.mods.fml.common.event.*;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
 import net.modding.proxy.ServerProxy;
-import net.modding.util.Events;
-import net.modding.util.McMod_info;
-import net.modding.util.UpdateChecker;
+import net.modding.util.*;
 import net.modding.crafting.Crafting_Smelting;
 import net.modding.fludis.BucketHandler;
 import net.modding.generations.BlockGenerator;
@@ -29,7 +23,7 @@ import net.modding.items.LootTables;
 public class modding{
 
 	public static final String MODID = "modding";
-	public static final String VERSION = "0.5";
+	public static final String VERSION = "0.5.1";
 	public static final String NAME = "alloyed tools";
 	
 	

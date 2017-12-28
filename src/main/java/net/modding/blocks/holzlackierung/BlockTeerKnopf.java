@@ -16,11 +16,14 @@ public class BlockTeerKnopf extends BlockButtonWood{
 	public BlockTeerKnopf() {
 		setUnlocalizedName("teer_knopf");
 		setCreativeTab(registry.teerTab);
+		setResistance(0.2F);
+		setHardness(0.8F);
+		setStepSound(soundTypeWood);
+		setHarvestLevel("axe", 1);
 	}
 	
 	@Override
 	public void onEntityCollidedWithBlock(World worldIn, BlockPos pos, Entity entityIn) {
 		UnluckEffekte.unluckBlock(this, worldIn, entityIn, pos);
 	}
-	
 }

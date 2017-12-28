@@ -66,7 +66,7 @@ tile.ferro_block.name=Block of Ferrochrome
 item.teer_stick.name=Tared Stick
 item.teer_eimer.name=Bucket with Tar
 item.kohle_eimer.name=Bucket with Coal
-item-sohlleder.name=Sole leather
+item.sohlleder.name=Sole leather
 
 item.teer_axe.name=Tared Wooden Axe
 item.teer_pickaxe.name=Tared Wooden Pickaxe

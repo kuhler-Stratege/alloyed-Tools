@@ -41,17 +41,21 @@ import net.modding.blocks.holzlackierung.BlockTeerPlank;
 import net.modding.creativetabs.TabChromTab;
 import net.modding.creativetabs.TabPlatinTab;
 import net.modding.creativetabs.TabTeerTab;
+import net.modding.fludis.BucketHandler;
+import net.modding.fludis.holzlackierung.Teer;
+import net.modding.fludis.holzlackierung.Teer.BlockTeer;
+import net.modding.fludis.holzlackierung.Teer.FluidTeer;
+import net.modding.items.basicTools.BasicItemAxe;
+import net.modding.items.basicTools.BasicItemHoe;
+import net.modding.items.basicTools.BasicItemPickaxe;
+import net.modding.items.basicTools.BasicItemShovel;
+import net.modding.items.basicTools.BasicItemSword;
 import net.modding.items.ItemHorse_cooked;
 import net.modding.items.ItemHorse_raw;
 import net.modding.items.basicArmor.BasicBoots;
 import net.modding.items.basicArmor.BasicChestplate;
 import net.modding.items.basicArmor.BasicHelmet;
 import net.modding.items.basicArmor.BasicLeggings;
-import net.modding.items.basicTools.BasicItemAxe;
-import net.modding.items.basicTools.BasicItemHoe;
-import net.modding.items.basicTools.BasicItemPickaxe;
-import net.modding.items.basicTools.BasicItemShovel;
-import net.modding.items.basicTools.BasicItemSword;
 import net.modding.items.eisenlegierung.BasicItemEisen;
 import net.modding.items.goldlegierung.BasicItemGold;
 import net.modding.items.goldlegierung.ItemBlockGold;
@@ -162,8 +166,8 @@ public class Benennung_Registry extends modding {
 				public static BasicChestplate teer_chestplate;
 				public static BasicBoots teer_boots;
 				public static BasicLeggings teer_leggings;	
+				
 			
-		
 	//Block Benennungen
 		//Goldlegierung
 		public static BlockPlatinOre platin_ore;
@@ -179,6 +183,7 @@ public class Benennung_Registry extends modding {
 		//Holzlackierung
 		public static BlockTeerPlank plank_teer;
 		public static BlockTeerKnopf teer_knopf;
+		
 		
 	public void Benennung() {
 		
@@ -210,106 +215,107 @@ public class Benennung_Registry extends modding {
 			teer_armor_material = EnumHelper.addArmorMaterial("TEER", "modding:teer", 8, new int[]{2, 3, 5, 2}, 2);
 			teer_armor_material.customCraftingMaterial = sohlleder;
 			
-	//Item Bennenungen 
-		horse_raw = new ItemHorse_raw("horse_raw", 3, true);
-		horse_cooked = new ItemHorse_cooked("horse_cooked", 5, false);
-		
-		//Goldlegierung
-		platin_ingot = new BasicItemGold("platin_ingot");
-		mix_ingot = new BasicItemGold("mix_ingot");
-		platin_dust = new BasicItemGold("platin_dust");
-		gold_dust = new BasicItemGold("gold_dust");
-		mix_dust = new BasicItemGold("mix_dust");
-		platin_klumpen = new BasicItemGold("platin_klumpen");
-		mix_klumpen = new BasicItemGold("mix_klumpen");
-	
-			//Tools
-			mix_sword = new BasicItemSword(mixMaterial, "mix", platinTab);
-			mix_axe = new BasicItemAxe(mixMaterial, "mix", platinTab);
-			mix_shovel = new BasicItemShovel(mixMaterial, "mix", platinTab);
-			mix_pickaxe = new BasicItemPickaxe(mixMaterial, "mix", platinTab);
-			mix_hoe = new BasicItemHoe(mixMaterial, "mix", platinTab);
-		
-			//Armor
-			mix_helmet = new BasicHelmet(mix_armor_material, "mix", platinTab);
-			mix_chestplate = new BasicChestplate(mix_armor_material, "mix", platinTab);
-			mix_leggings = new BasicLeggings(mix_armor_material, "mix", platinTab);
-			mix_boots = new BasicBoots(mix_armor_material, "mix", platinTab);
-	
-		//Eisenlegierung
-		eisen_dust = new BasicItemEisen("eisen_dust");
-		eisen_klumpen = new BasicItemEisen("eisen_klumpen");
-		chrom_ingot = new BasicItemEisen("chrom_ingot");
-		chrom_dust = new BasicItemEisen("chrom_dust");
-		chrom_klumpen = new BasicItemEisen("chrom_klumpen");
-		chromit = new BasicItemEisen("chromit");
-		sili_ingot = new BasicItemEisen("sili_ingot");
-		sili_klumpen = new BasicItemEisen("sili_klumpen");
-		sili_dust = new BasicItemEisen("sili_dust");
-		ferro_dust = new BasicItemEisen("ferro_dust");
-		ferro_klumpen = new BasicItemEisen("ferro_klumpen");
-		ferro_ingot = new BasicItemEisen("ferro_ingot");
-	
-			//Tools
-			ferro_sword = new BasicItemSword(ferroMaterial, "ferro", chromTab);
-			ferro_shovel = new BasicItemShovel(ferroMaterial, "ferro", chromTab);
-			ferro_pickaxe = new BasicItemPickaxe(ferroMaterial, "ferro", chromTab);
-			ferro_hoe = new BasicItemHoe(ferroMaterial, "ferro", chromTab);
-			ferro_axe = new BasicItemAxe(ferroMaterial, "ferro", chromTab);
-		
-			//Armor
-			ferro_helmet = new BasicHelmet(ferro_armor_material, "ferro", chromTab);
-			ferro_chestplate = new BasicChestplate(ferro_armor_material, "ferro", chromTab);
-			ferro_leggings = new BasicLeggings(ferro_armor_material, "ferro", chromTab);
-			ferro_boots = new BasicBoots(ferro_armor_material, "ferro", chromTab);
-		
-		//Holzlackierung
-		kohle_eimer = new ItemKohle_eimer();
-		sohlleder = new BasicItemTeer("sohlleder");
-		teer_stick = new ItemTeer_stick();
-		teer_eimer = new ItemTeer_eimer();	
-		register(teer_eimer);
-		
-			//Tools
-			teer_axe = new ItemTeer_axe();
-			teer_pickaxe = new ItemTeer_pickaxe();
-			teer_sword = new ItemTeer_sword();
-			teer_shovel = new ItemTeer_shovel();
-			teer_hoe = new ItemTeer_hoe();
+		//Item Bennenungen 
+			horse_raw = new ItemHorse_raw("horse_raw", 3, true);
+			horse_cooked = new ItemHorse_cooked("horse_cooked", 5, false);
+				
+				//Goldlegierung
+				platin_ingot = new BasicItemGold("platin_ingot");
+				mix_ingot = new BasicItemGold("mix_ingot");
+				platin_dust = new BasicItemGold("platin_dust");
+				gold_dust = new BasicItemGold("gold_dust");
+				mix_dust = new BasicItemGold("mix_dust");
+				platin_klumpen = new BasicItemGold("platin_klumpen");
+				mix_klumpen = new BasicItemGold("mix_klumpen");
 			
-			//Armor
-			teer_helmet = new BasicHelmet(teer_armor_material, "teer", teerTab);
-			teer_chestplate = new BasicChestplate(teer_armor_material, "teer", teerTab);
-			teer_leggings = new BasicLeggings(teer_armor_material, "teer", teerTab);
-			teer_boots = new BasicBoots(teer_armor_material, "teer", teerTab);
+					//Tools
+					mix_sword = new BasicItemSword(mixMaterial, "mix", platinTab);
+					mix_axe = new BasicItemAxe(mixMaterial, "mix", platinTab);
+					mix_shovel = new BasicItemShovel(mixMaterial, "mix", platinTab);
+					mix_pickaxe = new BasicItemPickaxe(mixMaterial, "mix", platinTab);
+					mix_hoe = new BasicItemHoe(mixMaterial, "mix", platinTab);
+				
+					//Armor
+					mix_helmet = new BasicHelmet(mix_armor_material, "mix", platinTab);
+					mix_chestplate = new BasicChestplate(mix_armor_material, "mix", platinTab);
+					mix_leggings = new BasicLeggings(mix_armor_material, "mix", platinTab);
+					mix_boots = new BasicBoots(mix_armor_material, "mix", platinTab);
 			
-	//Block Benennung
-		//Goldlegierung
-		platin_ore = new BlockPlatinOre();
-		platin_block = new BlockPlatinBlock();
-		mix_block = new BlockMixBlock();
-		itemblockPlatinBlock = new ItemBlockGold(platin_block);
-		itemblockPlatinOre = new ItemBlockGold(platin_ore);
+				//Eisenlegierung
+				eisen_dust = new BasicItemEisen("eisen_dust");
+				eisen_klumpen = new BasicItemEisen("eisen_klumpen");
+				chrom_ingot = new BasicItemEisen("chrom_ingot");
+				chrom_dust = new BasicItemEisen("chrom_dust");
+				chrom_klumpen = new BasicItemEisen("chrom_klumpen");
+				chromit = new BasicItemEisen("chromit");
+				sili_ingot = new BasicItemEisen("sili_ingot");
+				sili_klumpen = new BasicItemEisen("sili_klumpen");
+				sili_dust = new BasicItemEisen("sili_dust");
+				ferro_dust = new BasicItemEisen("ferro_dust");
+				ferro_klumpen = new BasicItemEisen("ferro_klumpen");
+				ferro_ingot = new BasicItemEisen("ferro_ingot");
+			
+					//Tools
+					ferro_sword = new BasicItemSword(ferroMaterial, "ferro", chromTab);
+					ferro_shovel = new BasicItemShovel(ferroMaterial, "ferro", chromTab);
+					ferro_pickaxe = new BasicItemPickaxe(ferroMaterial, "ferro", chromTab);
+					ferro_hoe = new BasicItemHoe(ferroMaterial, "ferro", chromTab);
+					ferro_axe = new BasicItemAxe(ferroMaterial, "ferro", chromTab);
+				
+				//Armor
+				ferro_helmet = new BasicHelmet(ferro_armor_material, "ferro", chromTab);
+				ferro_chestplate = new BasicChestplate(ferro_armor_material, "ferro", chromTab);
+				ferro_leggings = new BasicLeggings(ferro_armor_material, "ferro", chromTab);
+				ferro_boots = new BasicBoots(ferro_armor_material, "ferro", chromTab);
+				
+			//Holzlackierung
+			kohle_eimer = new ItemKohle_eimer();
+			sohlleder = new BasicItemTeer("sohlleder");
+			teer_stick = new ItemTeer_stick();
+			teer_eimer = new ItemTeer_eimer();	
+			register(teer_eimer);
+				
+					//Tools
+					teer_axe = new ItemTeer_axe();
+					teer_pickaxe = new ItemTeer_pickaxe();
+					teer_sword = new ItemTeer_sword();
+					teer_shovel = new ItemTeer_shovel();
+					teer_hoe = new ItemTeer_hoe();
+					
+					//Armor
+					teer_helmet = new BasicHelmet(teer_armor_material, "teer", teerTab);
+					teer_chestplate = new BasicChestplate(teer_armor_material, "teer", teerTab);
+					teer_leggings = new BasicLeggings(teer_armor_material, "teer", teerTab);
+					teer_boots = new BasicBoots(teer_armor_material, "teer", teerTab);
+				
+			//Block Benennung
+				//Goldlegierung
+				platin_ore = new BlockPlatinOre();
+				platin_block = new BlockPlatinBlock();
+				mix_block = new BlockMixBlock();
+				itemblockPlatinBlock = new ItemBlockGold(platin_block);
+				itemblockPlatinOre = new ItemBlockGold(platin_ore);
+				
+				//Eisenlegierung
+				chrom_ore = new BlockChrom_Ore();
+				chrom_block = new BlockChrom_Block();
+				sili_block = new BlockSilicium_Block();
+				ferro_block = new BlockFerro_Block();
+				
+				//Holzlackierung
+				plank_teer = new BlockTeerPlank();
+				itemblockPlankTeer = new ItemBlockTeer(plank_teer);
+				teer_knopf = new BlockTeerKnopf();
+				itemblockTeerKnopf = new ItemBlockTeer(teer_knopf);
+		}
 		
-		//Eisenlegierung
-		chrom_ore = new BlockChrom_Ore();
-		chrom_block = new BlockChrom_Block();
-		sili_block = new BlockSilicium_Block();
-		ferro_block = new BlockFerro_Block();
-		
-		//Holzlackierung
-		plank_teer = new BlockTeerPlank();
-		itemblockPlankTeer = new ItemBlockTeer(plank_teer);
-		teer_knopf = new BlockTeerKnopf();
-		itemblockTeerKnopf = new ItemBlockTeer(teer_knopf);
-	}
-	
 	public void ClientOnly(FMLPreInitializationEvent preInit) {
 		if (preInit.getSide() == Side.CLIENT) {
+			UpdateChecker.checkForUpdates();
 			modInfo = new McMod_info();
 			modInfo.ModData(preInit);
 		}
-	}
+	}	
 	
 	public void Registry() {
 			
@@ -386,8 +392,8 @@ public class Benennung_Registry extends modding {
 			
 		//Block Registrierungen
 			//Goldlegierung
-			registerGoldBlock(platin_ore, "platin_ore");
-			registerGoldBlock(platin_block, "platin_block");
+			registerBlockMitItem(platin_ore, itemblockPlatinOre.getClass());
+			registerBlockMitItem(platin_block, itemblockPlatinBlock.getClass());
 			registerGoldBlock(mix_block, "mix_block");
 			
 			//Eisenlegierung
@@ -397,9 +403,8 @@ public class Benennung_Registry extends modding {
 			registerEisenBlock(ferro_block, "ferro_block");
 			
 			//Holzlackierung
-			registerTeerBlock(plank_teer, itemblockPlankTeer.getClass());
-			registerTeerBlock(teer_knopf, itemblockTeerKnopf.getClass());
-			
+			registerBlockMitItem(plank_teer, itemblockPlankTeer.getClass());
+			registerBlockMitItem(teer_knopf, itemblockTeerKnopf.getClass());
 		}
 	
 	public static void registerGoldBlock(BasicBlockGold block, String name) {
@@ -418,7 +423,7 @@ public class Benennung_Registry extends modding {
 		GameRegistry.registerItem(item, item.getUnlocalizedName().substring(5), modding.MODID);
 		}
 	
-	public static void registerTeerBlock(Block block, Class<? extends ItemBlock> itemBlock) {
+	public static void registerBlockMitItem(Block block, Class<? extends ItemBlock> itemBlock) {
 		GameRegistry.registerBlock(block, itemBlock, block.getUnlocalizedName().substring(5));
 	}
 	

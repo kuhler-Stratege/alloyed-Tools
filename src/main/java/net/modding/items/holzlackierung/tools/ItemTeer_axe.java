@@ -27,13 +27,13 @@ public class ItemTeer_axe extends BasicItemAxe{
 	}
 	
 	@Override
+	public void addInformation(ItemStack stack, EntityPlayer playerIn, List tooltip, boolean advanced) {
+		tooltip.add(UnluckEffekte.teerText);
+	}
+	
+	@Override
 	public void onUpdate(ItemStack stack, World worldIn, Entity entityIn, int itemSlot, boolean isSelected) {
 		super.onUpdate(stack, worldIn, entityIn, itemSlot, isSelected);
 		UnluckEffekte.unluckItem(this, entityIn);
 		}
-	
-	@Override
-	public void addInformation(ItemStack stack, EntityPlayer playerIn, List tooltip, boolean advanced) {
-		tooltip.add(UnluckEffekte.teerText);
-	}
 }

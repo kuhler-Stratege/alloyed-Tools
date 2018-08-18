@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "modding:items/chromit"
+        "layer0": "modding:items/eisen/chromit"
     }
 }

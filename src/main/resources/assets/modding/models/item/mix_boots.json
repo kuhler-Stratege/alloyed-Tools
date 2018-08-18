@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "modding:items/mix_boots"
+        "layer0": "modding:items/gold/armor/mix_boots"
     }
 }

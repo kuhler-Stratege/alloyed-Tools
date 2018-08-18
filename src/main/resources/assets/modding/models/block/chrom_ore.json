@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "modding:blocks/chrom_ore"
+        "all": "modding:blocks/eisen/chrom_ore"
     }
 }

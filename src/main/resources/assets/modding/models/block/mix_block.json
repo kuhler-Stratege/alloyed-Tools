@@ -1,8 +1,8 @@
 {
     "parent": "block/cube_bottom_top",
     "textures": {
-        "bottom": "modding:blocks/mix_block1",
-        "top": "modding:blocks/mix_block1",
-        "side": "modding:blocks/mix_block2"
+        "bottom": "modding:blocks/gold/mix_block/mix_block1",
+        "top": "modding:blocks/gold/mix_block/mix_block1",
+        "side": "modding:blocks/gold/mix_block/mix_block2"
     }
 }

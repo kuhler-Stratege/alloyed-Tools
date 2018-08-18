@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "modding:items/ferro_shovel"
+        "layer0": "modding:items/eisen/tools/ferro_shovel"
     }
 }

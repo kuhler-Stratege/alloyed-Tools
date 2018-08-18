@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "modding:items/mix_hoe"
+        "layer0": "modding:items/gold/tools/mix_hoe"
     }
 }

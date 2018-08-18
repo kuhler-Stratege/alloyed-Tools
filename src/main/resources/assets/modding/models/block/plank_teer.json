@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "modding:blocks/plank_teer"
+        "all": "modding:blocks/holz/plank_teer"
     }
 }

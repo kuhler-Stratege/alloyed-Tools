@@ -1,0 +1,6 @@
+{
+    "parent": "block/pressure_plate_up",
+    "textures": {
+        "texture": "modding:blocks/holz/plank_teer"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "modding:teer_pressure_plate_up" },
+        "powered=true": { "model": "modding:teer_pressure_plate_down" }
+    }
+}

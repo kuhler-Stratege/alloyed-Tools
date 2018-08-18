@@ -1,6 +1,6 @@
 {
     "parent": "block/button_pressed",
     "textures": {
-        "texture": "modding:blocks/plank_teer"
+        "texture": "modding:blocks/holz/plank_teer"
     }
 }

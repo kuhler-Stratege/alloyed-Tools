@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "teertypes=oak": { "model": "modding:plank_teer" },
+        "teertypes=spruce": { "model": "modding:plank_teer" },
+        "teertypes=birke": { "model": "modding:plank_teer" },
+        "teertypes=jungle": { "model": "modding:plank_teer" },
+        "teertypes=steppe": { "model": "modding:plank_teer" },
+        "teertypes=darkoak": { "model": "modding:plank_teer" }    
+        
+    }
+}

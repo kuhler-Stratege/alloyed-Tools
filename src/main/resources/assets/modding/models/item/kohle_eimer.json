@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "modding:items/kohle_eimer"
+        "layer0": "modding:items/holz/kohle_eimer"
     }
 }

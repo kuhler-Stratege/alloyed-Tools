@@ -13,10 +13,12 @@ import net.minecraftforge.fml.common.IWorldGenerator;
 public class BlockGenerator extends WorldGenMinable implements IWorldGenerator{
 
 	private int frequency;
+	private int YHohe;
 	
-	public BlockGenerator(IBlockState p_i45630_1_, int p_i45630_2_, int frequency) {
-		super(p_i45630_1_, p_i45630_2_);
-		this.frequency=frequency;	
+	public BlockGenerator(IBlockState state, int i, int frequency, int YHohe) {
+		super(state, i);
+		this.frequency=frequency;
+		this.YHohe = YHohe;
 	}
 
 	@Override
@@ -28,7 +30,7 @@ public class BlockGenerator extends WorldGenMinable implements IWorldGenerator{
 			int posX = chunkX * 16 + offsetX;
 			int posZ = chunkZ * 16 + offsetZ;
 			
-			int posY = random.nextInt(30);
+			int posY = random.nextInt(YHohe);
 			
 			generate(world, random, new BlockPos(posX, posY, posZ));
 		}

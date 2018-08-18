@@ -1,7 +1,9 @@
 package net.modding.items.basictools;
 
-import com.google.common.collect.Sets;
 import java.util.Set;
+
+import com.google.common.collect.Sets;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -9,8 +11,8 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
 import net.minecraftforge.fml.common.ObfuscationReflectionHelper;
-import net.modding.main.Benennung_Registry;
 import net.modding.main.modding;
+import net.modding.registry.Benennung_Registry;
 
 public class ItemAdvancedAxe extends ItemTool
 {

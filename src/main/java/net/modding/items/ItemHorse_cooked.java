@@ -1,7 +1,5 @@
 package net.modding.items;
 
-import java.util.Random;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
@@ -12,7 +10,6 @@ public class ItemHorse_cooked extends BasicFood{
 
 	public ItemHorse_cooked(String name, int amount, boolean isWolfFood) {
 		super("horse_cooked", 5, false);
-		
 	}
 	
 	@Override

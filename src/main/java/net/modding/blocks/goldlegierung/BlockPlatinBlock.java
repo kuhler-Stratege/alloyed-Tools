@@ -3,9 +3,6 @@ package net.modding.blocks.goldlegierung;
 import java.util.List;
 import java.util.Random;
 
-import javax.annotation.Nullable;
-
-import net.modding.main.modding;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -18,12 +15,12 @@ import net.minecraft.util.text.translation.I18n;
 public class BlockPlatinBlock extends BasicBlockGold {
 	
 	public BlockPlatinBlock() {
-		super("platin_block", Material.IRON, 2, 5.5F, SoundType.METAL);
+		super("platin_block", Material.IRON, 2, 5.5F, SoundType.METAL, 10F);
 	}
 
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-		return registry.platin_ingot;
+		return registry.gold.platin_ingot;
 	}	
 	
 	@Override

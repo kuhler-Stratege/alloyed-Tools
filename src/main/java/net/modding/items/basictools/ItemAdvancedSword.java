@@ -7,8 +7,8 @@ import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemSword;
-import net.modding.main.Benennung_Registry;
 import net.modding.main.modding;
+import net.modding.registry.Benennung_Registry;
 
 public class ItemAdvancedSword extends ItemSword{
 

@@ -3,18 +3,9 @@ package net.modding.items.holzlackierung.tools;
 import java.util.List;
 
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.PotionEffect;
-import net.minecraft.util.text.TextFormatting;
-import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
-import net.modding.blocks.holzlackierung.BasicBlockTeer;
-import net.modding.fludis.holzlackierung.Teer;
 import net.modding.items.basictools.BasicItemPickaxe;
 import net.modding.util.UnluckEffekte;
 
@@ -27,7 +18,7 @@ public class ItemTeer_pickaxe extends BasicItemPickaxe{
 	@Override
 	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
 		
-		tooltip.add(TextFormatting.DARK_RED + I18n.translateToLocal("text.teer.text"));
+		tooltip.add(UnluckEffekte.teerText);
 	}
 	
 	@Override

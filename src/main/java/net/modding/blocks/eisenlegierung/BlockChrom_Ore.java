@@ -6,7 +6,7 @@ import net.minecraft.block.material.Material;
 public class BlockChrom_Ore extends BasicBlockEisen {
 
 	public BlockChrom_Ore() {
-		super("chrom_ore", Material.ROCK, 2, 5.5F, SoundType.STONE);
+		super("chrom_ore", Material.ROCK, 2, 3.5F, SoundType.STONE, 4.5F);
 	}
 	
 

@@ -2,8 +2,8 @@ package net.modding.creativetabs;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.modding.main.Benennung_Registry;
 import net.modding.main.modding;
+import net.modding.registry.Benennung_Registry;
 
 public class TabTeerTab extends CreativeTabs{
 
@@ -15,6 +15,6 @@ public class TabTeerTab extends CreativeTabs{
 
 	@Override
 	public Item getTabIconItem() {
-		return registry.teer_eimer;
+		return registry.holz.teer_eimer;
 	}
 }

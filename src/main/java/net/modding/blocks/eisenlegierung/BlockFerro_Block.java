@@ -2,7 +2,6 @@ package net.modding.blocks.eisenlegierung;
 
 import java.util.Random;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -11,12 +10,12 @@ import net.minecraft.item.Item;
 public class BlockFerro_Block extends BasicBlockEisen{
 	
 	public BlockFerro_Block() {
-		super("ferro_block", Material.IRON, 2, 3.5F, SoundType.METAL);
+		super("ferro_block", Material.IRON, 2, 6.5F, SoundType.METAL, 13F);
 	}
 
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-		return registry.ferro_ingot;
+		return registry.eisen.ferro_ingot;
 	}
 	
 	@Override

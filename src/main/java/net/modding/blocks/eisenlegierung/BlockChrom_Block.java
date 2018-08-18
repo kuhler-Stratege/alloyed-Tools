@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 public class BlockChrom_Block extends BasicBlockEisen{
 
 	public BlockChrom_Block() {
-		super("chrom_block", Material.IRON, 2, 8.5F, SoundType.METAL);
+		super("chrom_block", Material.IRON, 2, 5.5F, SoundType.METAL, 8F);
 		
 	}
 
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-		return registry.chrom_ingot;
+		return registry.eisen.chrom_ingot;
 	}
 	
 	@Override

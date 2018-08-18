@@ -3,20 +3,9 @@ package net.modding.items.holzlackierung.tools;
 import java.util.List;
 
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
-import net.minecraft.inventory.ContainerWorkbench;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.crafting.ShapedRecipes;
-import net.minecraft.potion.Potion;
-import net.minecraft.potion.PotionEffect;
-import net.minecraft.util.text.TextFormatting;
-import net.minecraft.util.text.translation.I18n;
 import net.minecraft.world.World;
-import net.modding.blocks.holzlackierung.BasicBlockTeer;
-import net.modding.fludis.holzlackierung.Teer;
 import net.modding.items.basictools.BasicItemAxe;
 import net.modding.util.UnluckEffekte;
 
@@ -29,7 +18,7 @@ public class ItemTeer_axe extends BasicItemAxe{
 	@Override
 	public void addInformation(ItemStack stack, EntityPlayer playerIn, List<String> tooltip, boolean advanced) {
 		
-		tooltip.add(TextFormatting.DARK_RED + I18n.translateToLocal("text.teer.text"));
+		tooltip.add(UnluckEffekte.teerText);
 	}
 	
 	@Override

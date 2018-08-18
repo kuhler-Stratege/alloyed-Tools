@@ -2,8 +2,8 @@ package net.modding.creativetabs;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.modding.main.Benennung_Registry;
 import net.modding.main.modding;
+import net.modding.registry.Benennung_Registry;
 
 public class TabChromTab extends CreativeTabs{
 
@@ -15,6 +15,7 @@ public class TabChromTab extends CreativeTabs{
 
 	@Override
 	public Item getTabIconItem() {
-		return registry.ferro_chestplate;
+		return registry.eisen.ferro_chestplate;
 	}
+	
 }

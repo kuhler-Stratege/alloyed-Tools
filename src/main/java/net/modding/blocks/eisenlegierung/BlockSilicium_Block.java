@@ -10,12 +10,12 @@ import net.minecraft.item.Item;
 public class BlockSilicium_Block extends BasicBlockEisen{
 	
 	public BlockSilicium_Block() {
-		super("sili_block", Material.IRON, 2, 6.5F, SoundType.METAL);
+		super("sili_block", Material.IRON, 2, 6F, SoundType.METAL, 7.5F);
 	}
 
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
-		return registry.sili_ingot;
+		return registry.eisen.sili_ingot;
 	}
 	
 	@Override

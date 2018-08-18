@@ -1,12 +1,12 @@
 package net.modding.items.holzlackierung;
 
-import net.modding.main.Benennung_Registry;
-import net.modding.main.modding;
 import net.minecraft.item.Item;
+import net.modding.main.modding;
+import net.modding.registry.Holzlackierung;
 
 public class BasicItemTeer extends Item {
 	
-	public static Benennung_Registry registry = modding.registry;
+	protected Holzlackierung registry = modding.registry.holz;
 	
 	public BasicItemTeer(String name) {
 		setUnlocalizedName(name);

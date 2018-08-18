@@ -10,7 +10,7 @@ import net.modding.main.modding;
 
 public class UpdateChecker {
 
-	private static final String Update_File = "https://www.dropbox.com/s/2rkz9ku0b5x55d7/ModUpdate%20alle%20Versionen.txt?dl=1";
+	private static final String Update_File = "https://www.dropbox.com/s/rv8zhgin6zp4xhs/ModUpdate.txt?dl=1";
 	private static boolean newVersionAvailable = false;
 	
 	public static void checkForUpdates() {

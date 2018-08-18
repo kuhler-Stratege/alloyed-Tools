@@ -12,7 +12,7 @@ public class McMod_info extends modding{
 	public static final String AUTOR_1 = "Joel Kuhle";
 	public static final String FILE = "";
 	public static final String CREDITS = "Joel Kuhle for coding this mod, MikasOrbit for making the tutorials and the team from Though as nails mod for shareing their sourcecode. I have copied some declared methods from that mod.";
-	public static final String DONLOAD_URL = "https://goo.gl/FyOeAg";
+	public static final String DOWNLOAD_URL = "https://goo.gl/FyOeAg";
 	public static final String UPDATE_URL = "https://goo.gl/YPKlEl";
 	public static final String LOGO_ORT = "ferro_chestplate.png";
 	
@@ -24,7 +24,7 @@ public class McMod_info extends modding{
 		data.modId = modding.MODID;
 		data.name = modding.NAME;
 		data.version = modding.VERSION;
-		data.url = DONLOAD_URL;
+		data.url = DOWNLOAD_URL;
 		data.updateUrl = UPDATE_URL;
 		data.authorList.add(AUTOR_1);
 		data.description = Beschreibung;

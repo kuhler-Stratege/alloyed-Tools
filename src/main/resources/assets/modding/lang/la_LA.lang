@@ -1,0 +1,100 @@
+text.platinBlock.text=Achtung, haerter, als du denkst!
+text.platinOre.text=Dieser Block moechte dich veraeppeln.
+text.UpdateChecker.text=Eine neuere Version des Mod ist verf√ºgbar. Downloade sie hier: 
+text.teer.text=Denk daran: Teer ist verflucht!
+text.Teerzaun.text=Dieser Zaun wird nicht mehr sauber werden.
+text.Teerknopf.text=Dieser Knopf wird nicht mehr sauber werden.
+text.Teereimer.text=Achtung, kann heiﬂ werden!
+
+itemGroup.goldTab=Goldlegierung
+itemGroup.chromTab=Eisenlegierung
+itemGroup.teerTab=Holzlackierung
+
+item.horse_raw.name=rohes Pferdefleisch
+item.horse_cooked.name=gekochtes Pferdefleisch
+
+item.gold_dust.name=Goldstaub
+item.platin_ingot.name=Platinbarren
+item.platin_klumpen.name=Platinklumpen
+item.platin_dust.name=Platinstaub
+item.mix_ingot.name=legierter Goldbarren
+item.mix_klumpen.name=legierter Goldklumpen
+item.mix_dust.name=legierter Goldstaub
+
+item.mix_sword.name=legiertes Gold gladius
+item.mix_shovel.name=legierte Gold batillum
+item.mix_axe.name=legierte Gold ascia
+item.mix_pickaxe.name=legierte Gold upupa
+item.mix_hoe.name=legierte Gold rastrum
+
+item.mix_helmet.name=legierter Gold cassida
+item.mix_chestplate.name=legierter Gold lorica
+item.mix_leggins.name=legierte Gold bracae
+item.mix_boots.name=legierte Gold calceamen
+
+tile.platin_ore.name=Platinerz
+tile.platin_block.name=Platinblock
+tile.mix_block.name=legierter Goldblock
+
+item.eisen_klumpen.name=Eisenklumpen
+item.eisen_dust.name=Eisenstaub
+item.chromit.name=Chromitbarren
+item.chrom_ingot.name=Chrombarren
+item.chrom_klumpen.name=Chromklumpen
+item.chrom_dust.name=Chromstaub
+item.sili_ingot.name=Siliciumbarren
+item.sili_klumpen.name=Siliciumklumpen
+item.sili_dust.name=Siliciumstaub
+item.ferro_ingot.name=Ferrochrombarren
+item.ferro_klumpen.name=Ferrochromklumpen
+item.ferro_dust.name=Ferrochromstaub
+
+item.ferro_pickaxe.name=Ferrochrom upupa
+item.ferro_shovel.name=Ferrochrom batillum
+item.ferro_sword.name=Ferrochrom gladius
+item.ferro_hoe.name=Ferrochrom rastrum
+item.ferro_axe.name=Ferrochrom ascia
+
+item.ferro_helmet.name=Ferrochrom cassida
+item.ferro_chestplate.name=Ferrochrom lorica
+item.ferro_leggins.name=Ferrochrom bracae
+item.ferro_boots.name=Ferrochrom calceamen
+
+tile.chrom_ore.name=Chromiterz
+tile.chrom_block.name=Chromblock
+tile.sili_block.name=Siliciumblock
+tile.ferro_block.name=Ferrochromblock
+
+item.teer_stick.name=baculum redund cum pix
+item.teer_eimer.name=fidelia cum pix
+item.kohle_eimer.name=fidelia cum carbo
+item.sohlleder.name=cum corium peorum suet
+
+item.teer_pickaxe.name=upupa e lignum redund cum pix
+item.teer_shovel.name=batillum e lignum redund cum pix
+item.teer_sword.name=gladius e lignum redund cum pix
+item.teer_hoe.name=rastrum e lignum redund cum pix
+item.teer_axe.name=ascia e lignum redund cum pix
+
+item.teer_helmet.name=cum corium peorum suet galea
+item.teer_chestplate.name=cum corium peorum suet lorica
+item.teer_leggings.name=cum corium peorum suet bracae
+item.teer_boots.name=cum corium peorum suet calceamen
+
+tile.plank_teer.oakplank_teer.name=robur redund cum pix
+tile.plank_teer.spruceplank_teer.name=lignum pineinus redund cum pix
+tile.plank_teer.birkeplank_teer.name=lignum betulina redund cum pix
+tile.plank_teer.jungleplank_teer.name=lignum e ardores redund cum pix
+tile.plank_teer.steppeplank_teer.name=lignum e frutex redund cum pix
+tile.plank_teer.darkoakplank_teer.name=robur niger redund cum pix
+
+tile.teer_half_slab.oak.name=gradus quercinus redund cum pix
+tile.teer_half_slab.spruce.name=gradus pineinus redund cum pix
+tile.teer_half_slab.birke.name=gradus betulina redund cum pix
+tile.teer_half_slab.jungle.name=gradus e ardores redund cum pix
+tile.teer_half_slab.steppe.name=gradus e frutex redund cum pix
+tile.teer_half_slab.darkoak.name=gradus quercus niger redund cum pix
+
+tile.teer_knopf.name=ligneus bulla redund cum pix
+tile.teer_zaun.name=saepes redund cum pix
+tile.teer.name=pix

@@ -1,7 +1,12 @@
 text.platinBlock.text=Achtung, haerter, als du denkst!
 text.platinOre.text=Dieser Block moechte dich veraeppeln.
-text.UpdateChecker.text=Eine neuere Version des Mod ist verfügbar. Downloade sie hier: 
+text.UpdateChecker.text=Eine neuere Version der alloyed Tools ist verfuegbar. Downloade sie hier: 
 text.teer.text=Denk daran: Teer ist verflucht!
+text.Teerzaun.text=Dieser Zaun wird nicht mehr sauber werden.
+text.Teerfence_gate.text=Dieses Zauntor wird nicht mehr sauber werden.
+text.Teerknopf.text=Dieser Knopf wird nicht mehr sauber werden.
+text.Teertreppe.text=Diese Treppe wird nicht mehr sauber werden.
+text.Teereimer.text=Achtung, kann heiß werden!
 
 itemGroup.goldTab=Goldlegierung
 itemGroup.chromTab=Eisenlegierung
@@ -78,6 +83,25 @@ item.teer_chestplate.name=sohllederner Brustpanzer
 item.teer_leggings.name=sohllederner Hose
 item.teer_boots.name=sohllederner Schuhe
 
-tile.plank_teer.name=geteerte Holzbretter
+fluid.fluid_teer=Teer
+
+tile.plank_teer.oakplank_teer.name=geteerte Eichenholzplanken
+tile.plank_teer.spruceplank_teer.name=geteerte Fichtenholzplanken
+tile.plank_teer.birkeplank_teer.name=geteerte Birkenholzplanken
+tile.plank_teer.jungleplank_teer.name=geteerte Tropenholzplanken
+tile.plank_teer.steppeplank_teer.name=geteerte Akazienholzplanken
+tile.plank_teer.darkoakplank_teer.name=geteerte Schwarzeichenholzplanken
+
+tile.teer_half_slab.oak.name=geteerte Eichenholzstufe
+tile.teer_half_slab.spruce.name=geteerte Fichtenholzstufe
+tile.teer_half_slab.birke.name=geteerte Birkenholzstufe
+tile.teer_half_slab.jungle.name=geteerte Tropenholzstufe
+tile.teer_half_slab.steppe.name=geteerte Akazienholzstufe
+tile.teer_half_slab.darkoak.name=geteerte Schwarzeichenholzstufe
+
 tile.teer_knopf.name=geteerter Holzknopf
-tile.teer.name=Teer
+tile.teer_zaun.name=geteerter Zaun
+tile.fluidBlock_teer.name=Teer
+tile.teer_treppe.name=geteerte Holztreppe
+tile.teer_fence_gate.name=geteertes Zauntor
+tile.teer_pressure_plate.name=geteerte Holzdruckplatte;

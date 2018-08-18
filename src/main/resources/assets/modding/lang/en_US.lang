@@ -1,7 +1,12 @@
 text.platinBlock.text=Attention, harder, than you think!
 text.platinOre.text=This block wants to troll you.
-text.UpdateChecker.text=A new Modversion is available. Download it here: 
+text.UpdateChecker.text=A new alloyed Tools version is available. Download it here: 
 text.teer.text=Bear in mind, that Tar is cursed.
+text.Teerzaun.text=This fence will never be clean.
+text.Teerfence_gate.text=This fence gate will never be clean.
+text.Teerknopf.text=This button will never be clean.
+text.Teertreppe.text=These stairs will never be clean.
+text.Teereimer.text=Attention, may became hot!
 
 itemGroup.goldTab=Alloy of Gold
 itemGroup.chromTab=Alloy of Iron
@@ -78,6 +83,25 @@ item.teer_chestplate.name=Sole leather Chestplate
 item.teer_leggings.name=Sole leather Leggings
 item.teer_boots.name=Sole leather Boots
 
-tile.plank_teer.name=Tared Woodplank
+fluid.fluid_teer=tar
+
+tile.plank_teer.oakplank_teer.name=tared Oak Wood Planks
+tile.plank_teer.spruceplank_teer.name=tared Spruce Wood Planks
+tile.plank_teer.birkeplank_teer.name=tared Birch Wood Planks
+tile.plank_teer.jungleplank_teer.name=tared Jungle Wood Planks
+tile.plank_teer.steppeplank_teer.name=tared Acacia Wood Planks
+tile.plank_teer.darkoakplank_teer.name=tared Dark Oak Wood Planks
+
+tile.teer_half_slab.oak.name=tared Oak Wood Slab
+tile.teer_half_slab.spruce.name=tared Spruce Wood Slab
+tile.teer_half_slab.birke.name=tared Birch Wood Slab
+tile.teer_half_slab.jungle.name=tared Jungle Wood Slab
+tile.teer_half_slab.steppe.name=tared Acacia Wood Slab
+tile.teer_half_slab.darkoak.name=tared Dark Oak Wood Slab
+
 tile.teer_knopf.name=Tared wooden Button
-tile.teer.name=Tar
+tile.teer_zaun.name=tared Wooden Fence
+tile.fluidBlock_teer.name=Tar
+tile.teer_treppe.name=Tared Wooden Stairs
+tile.teer_fence_gate.name=Tared Wooden Fence Gate
+tile.teer_pressure_plate.name=tared Wooden Pressure Plate

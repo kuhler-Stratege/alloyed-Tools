@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "modding:blocks/holz/plank_teer",
+        "top": "modding:blocks/holz/plank_teer",
+        "side": "modding:blocks/holz/plank_teer"
+    }
+}

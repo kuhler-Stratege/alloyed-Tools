@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "modding:items/eisen/tools/ferro_sword"
+    }
+}

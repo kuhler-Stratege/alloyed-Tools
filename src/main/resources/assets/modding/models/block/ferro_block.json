@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "modding:blocks/eisen/ferro_block/ferro_EisenSili",
+        "down": "modding:blocks/eisen/ferro_block/ferro_EisenChrom",
+        "up": "modding:blocks/eisen/ferro_block/ferro_SiliChrom",
+        "north": "modding:blocks/eisen/ferro_block/ferro_EisenSili",
+        "east": "modding:blocks/eisen/ferro_block/ferro_EisenChrom",
+        "south": "modding:blocks/eisen/ferro_block/ferro_SiliChrom",
+        "west": "modding:blocks/eisen/ferro_block/ferro_EisenSili"
+    }
+}

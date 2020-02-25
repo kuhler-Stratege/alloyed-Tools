@@ -1,0 +1,16 @@
+{
+    "variants": {
+        "half=bottom,teerslabtype=oak": { "model": "modding:teer_half_slab" },
+        "half=bottom,teerslabtype=spruce": { "model": "modding:teer_half_slab" },
+        "half=bottom,teerslabtype=birke": { "model": "modding:teer_half_slab" },
+        "half=bottom,teerslabtype=jungle": { "model": "modding:teer_half_slab" },
+        "half=bottom,teerslabtype=steppe": { "model": "modding:teer_half_slab" },
+        "half=bottom,teerslabtype=darkoak": { "model": "modding:teer_half_slab" },
+        "half=top,teerslabtype=oak": { "model": "modding:teer_double_slab" },
+        "half=top,teerslabtype=spruce": { "model": "modding:teer_double_slab" },
+        "half=top,teerslabtype=birke": { "model": "modding:teer_double_slab" },
+        "half=top,teerslabtype=jungle": { "model": "modding:teer_double_slab" },
+        "half=top,teerslabtype=steppe": { "model": "modding:teer_double_slab" },
+        "half=top,teerslabtype=darkoak": { "model": "modding:teer_double_slab" }
+    }
+}

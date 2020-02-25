@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "modding:items/eisen/silicium_ingot"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "teerslabtype=oak": { "model": "modding:plank_teer" },
+        "teerslabtype=spruce": { "model": "modding:plank_teer" },
+        "teerslabtype=birke": { "model": "modding:plank_teer" },
+        "teerslabtype=jungle": { "model": "modding:plank_teer" },
+        "teerslabtype=steppe": { "model": "modding:plank_teer" },
+        "teerslabtype=darkoak": { "model": "modding:plank_teer" }
+    }
+}

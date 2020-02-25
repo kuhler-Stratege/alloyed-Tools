@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_inventory",
+    "textures": {
+        "texture": "modding:blocks/holz/plank_teer"
+    }
+}

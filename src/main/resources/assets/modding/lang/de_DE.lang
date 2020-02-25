@@ -1,0 +1,107 @@
+text.platinBlock.text=Achtung, haerter, als du denkst!
+text.platinOre.text=Dieser Block moechte dich veraeppeln.
+text.UpdateChecker.text=Eine neuere Version der alloyed Tools ist verfuegbar. Downloade sie hier: 
+text.teer.text=Denk daran: Teer ist verflucht!
+text.Teerzaun.text=Dieser Zaun wird nicht mehr sauber werden.
+text.Teerfence_gate.text=Dieses Zauntor wird nicht mehr sauber werden.
+text.Teerknopf.text=Dieser Knopf wird nicht mehr sauber werden.
+text.Teertreppe.text=Diese Treppe wird nicht mehr sauber werden.
+text.Teereimer.text=Achtung, kann heiﬂ werden!
+
+itemGroup.goldTab=Goldlegierung
+itemGroup.chromTab=Eisenlegierung
+itemGroup.teerTab=Holzlackierung
+
+item.horse_raw.name=rohes Pferdefleisch
+item.horse_cooked.name=gekochtes Pferdefleisch
+
+item.gold_dust.name=Goldstaub
+item.platin_ingot.name=Platinbarren
+item.platin_klumpen.name=Platinklumpen
+item.platin_dust.name=Platinstaub
+item.mix_ingot.name=legierter Goldbarren
+item.mix_klumpen.name=legierter Goldklumpen
+item.mix_dust.name=legierter Goldstaub
+
+item.mix_sword.name=legiertes Goldschwert
+item.mix_shovel.name=legierte Goldschaufel
+item.mix_axe.name=legierte Goldaxt
+item.mix_pickaxe.name=legierte Goldspitzhacke
+item.mix_hoe.name=legierte Goldhacke
+
+item.mix_helmet.name=legierter Goldhelm
+item.mix_chestplate.name=legierter Goldbrustpanzer
+item.mix_leggins.name=legierte Goldhose
+item.mix_boots.name=legierte Goldschuhe
+
+tile.platin_ore.name=Platinerz
+tile.platin_block.name=Platinblock
+tile.mix_block.name=legierter Goldblock
+
+item.eisen_klumpen.name=Eisenklumpen
+item.eisen_dust.name=Eisenstaub
+item.chromit.name=Chromitbarren
+item.chrom_ingot.name=Chrombarren
+item.chrom_klumpen.name=Chromklumpen
+item.chrom_dust.name=Chromstaub
+item.sili_ingot.name=Siliciumbarren
+item.sili_klumpen.name=Siliciumklumpen
+item.sili_dust.name=Siliciumstaub
+item.ferro_ingot.name=Ferrochrombarren
+item.ferro_klumpen.name=Ferrochromklumpen
+item.ferro_dust.name=Ferrochromstaub
+
+item.ferro_pickaxe.name=Ferrochromspitzhacke
+item.ferro_shovel.name=Ferrochromschaufel
+item.ferro_sword.name=Ferrochromschwert
+item.ferro_hoe.name=Ferrochromhacke
+item.ferro_axe.name=Ferrochromaxt
+
+item.ferro_helmet.name=Ferrochromhelm
+item.ferro_chestplate.name=Ferrochrombrustpanzer
+item.ferro_leggins.name=Ferrochromhose
+item.ferro_boots.name=Ferrochromschuhe
+
+tile.chrom_ore.name=Chromiterz
+tile.chrom_block.name=Chromblock
+tile.sili_block.name=Siliciumblock
+tile.ferro_block.name=Ferrochromblock
+
+item.teer_stick.name=geteerter Stock
+item.teer_eimer.name=Teereimer
+item.kohle_eimer.name=Eimer mit Kohle
+item.sohlleder.name=Sohlleder
+
+item.teer_pickaxe.name=geteerte Holzspitzhacke
+item.teer_shovel.name=geteerte Holzschaufel
+item.teer_sword.name=geteertes Holzschwert
+item.teer_hoe.name=geteerte Holzhacke
+item.teer_axe.name=geteerte Holzaxt
+
+item.teer_helmet.name=sohllederner Helm
+item.teer_chestplate.name=sohllederner Brustpanzer
+item.teer_leggings.name=sohllederner Hose
+item.teer_boots.name=sohllederner Schuhe
+
+fluid.fluid_teer=Teer
+
+tile.plank_teer.oakplank_teer.name=geteerte Eichenholzplanken
+tile.plank_teer.spruceplank_teer.name=geteerte Fichtenholzplanken
+tile.plank_teer.birkeplank_teer.name=geteerte Birkenholzplanken
+tile.plank_teer.jungleplank_teer.name=geteerte Tropenholzplanken
+tile.plank_teer.steppeplank_teer.name=geteerte Akazienholzplanken
+tile.plank_teer.darkoakplank_teer.name=geteerte Schwarzeichenholzplanken
+
+tile.teer_half_slab.oak.name=geteerte Eichenholzstufe
+tile.teer_half_slab.spruce.name=geteerte Fichtenholzstufe
+tile.teer_half_slab.birke.name=geteerte Birkenholzstufe
+tile.teer_half_slab.jungle.name=geteerte Tropenholzstufe
+tile.teer_half_slab.steppe.name=geteerte Akazienholzstufe
+tile.teer_half_slab.darkoak.name=geteerte Schwarzeichenholzstufe
+
+tile.teer_knopf.name=geteerter Holzknopf
+tile.teer_zaun.name=geteerter Zaun
+tile.fluidBlock_teer.name=Teer
+tile.teer_treppe.name=geteerte Holztreppe
+tile.teer_fence_gate.name=geteertes Zauntor
+tile.teer_pressure_plate.name=geteerte Holzdruckplatte;

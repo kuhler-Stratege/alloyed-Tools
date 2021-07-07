@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "f f", 
+     "fff", 
+     "fff"
+    ],
+   "key": {
+      "f": {
+      "item": "modding:ferro_ingot"
+     }
+   },
+   "result": {
+     "item": "modding:ferro_chestplate",
+     "count": 1,
+     "data": 0
+   }
+}

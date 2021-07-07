@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mmm", 
+    "m m", 
+    "m m"  
+    ],
+   "key": {
+    "m": {
+    "item": "modding:mix_ingot"
+    }
+   },
+   "result": {
+     "item": "modding:mix_helmet",
+     "count": 1,
+     "data": 0
+   }
+}

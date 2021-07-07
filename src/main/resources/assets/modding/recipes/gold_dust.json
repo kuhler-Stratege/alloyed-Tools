@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+   {
+    "item": "minecraft:gold_nugget",
+    "data": 32767
+    }
+   ],
+   "result": {
+     "item": "modding:gold_dust",
+     "count": 1
+   }
+}

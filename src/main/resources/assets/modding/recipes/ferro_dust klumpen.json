@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+   {
+    "item": "modding:ferro_klumpen",
+    "data": 32767
+    }
+   ],
+   "result": {
+     "item": "modding:ferro_dust",
+     "count": 1
+   }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "F", 
+     "S"
+    ],
+   "key": {
+      "F": {
+      "item": "minecraft:WATER_BUCKET",
+    "data": 32767
+     },
+      "S": {
+      "item": "modding:teer_stick",
+    "data": 32767
+     }
+   },
+   "result": {
+     "item": "minecraft:STICK",
+     "count": 1,
+     "data": 0
+   }
+}

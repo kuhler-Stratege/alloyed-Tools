@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "ff", 
+     "fs", 
+     " s"
+    ],
+   "key": {
+      "f": {
+      "item": "modding:ferro_ingot"
+     },
+      "s": {
+      "item": "minecraft:STICK"
+     }
+   },
+   "result": {
+     "item": "modding:ferro_axe",
+     "count": 1,
+     "data": 0
+   }
+}

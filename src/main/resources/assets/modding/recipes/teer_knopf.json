@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+   {
+    "item": "modding:plank_teer",
+    "data": 32767
+    }
+   ],
+   "result": {
+     "item": "modding:teer_knopf",
+     "count": 1
+   }
+}

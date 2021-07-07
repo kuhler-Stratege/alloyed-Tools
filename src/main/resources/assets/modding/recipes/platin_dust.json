@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+   {
+    "item": "modding:platin_klumpen",
+    "data": 0
+    }
+   ],
+   "result": {
+     "item": "modding:platin_dust",
+     "count": 1
+   }
+}

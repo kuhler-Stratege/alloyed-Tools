@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+   {
+    "item": "minecraft:IRON_NUGGET",
+    "data": 0
+    }
+   ],
+   "result": {
+     "item": "modding:eisen_dust",
+     "count": 1
+   }
+}

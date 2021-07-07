@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [  
+   {
+    "item": "modding:chrom_klumpen",
+    "data": 0
+    }
+   ],
+   "result": {
+     "item": "modding:chrom_dust",
+     "count": 1
+   }
+}

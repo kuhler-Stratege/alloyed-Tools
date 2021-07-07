@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP", 
+    "PPP"   
+    ],
+   "key": {
+    "P": {
+    "item": "modding:platin_ingot",
+    "data": 32767
+    }
+   },
+   "result": {
+     "item": "modding:platin_block",
+     "data": 0
+   }
+}

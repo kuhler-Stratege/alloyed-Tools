@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+     "ece", 
+     "ece", 
+     "ese"
+    ],
+   "key": {
+      "e": {
+      "item": "modding:eisen_dust"
+     },
+     "c": {
+      "item": "modding:chrom_dust"
+     },
+     "s": {
+      "item": "modding:sili_dust"
+     }
+   },
+   "result": {
+     "item": "modding:ferro_dust",
+     "count": 1,
+     "data": 0
+   }
+}
